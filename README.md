@@ -87,10 +87,10 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t raedjarboui/springboot-api:latest .
+      run: docker build -t raedjarboui/myapp:latest .
 
     - name: Push Docker image
-      run: docker push raedjarboui/springboot-api:latest
+      run: docker push raedjarboui/myapp:latest
 ```
 
 ---
